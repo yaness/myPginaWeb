@@ -1,0 +1,35 @@
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /*fallback for old browsers */
+    background: linear-gradient(to right, hsla(341, 13%, 66%, 0.472), #2d4e69);
+    /* chrome 10-25, safari 5.1-6 */
+    background: linear-gradient(to right, #366d7e9a, #44599698), url(portada.1.jpg);
+    /* w3c, IE 10+/ Edge, Firefox 16+, chrome 26+, Opera 12+, safari7+ */
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+}
+ .hover-galeria img{
+     width: 50px;
+ }
+ .hover-galeria p{
+     color: #fff;
+ }
